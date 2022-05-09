@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135 1920" width="135" height="1920">
+	<title>New Project</title>
+	<defs>
+		<image width="135" height="1920" id="img1" href="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDEzNSAxOTIwIiB3aWR0aD0iMTM1IiBoZWlnaHQ9IjE5MjAiPgoJPHRpdGxlPk5ldyBQcm9qZWN0PC90aXRsZT4KCTxzdHlsZT4KCQkuczAgeyBmaWxsOiAjYTliOThjIH0gCgk8L3N0eWxlPgoJPHBhdGggaWQ9IkxheWVyIDEiIGNsYXNzPSJzMCIgZD0ibS05MzAtNzA0LjlsOTUyLjkgNjAyLjkgMTIyLjEgMjg3NC44LTk1Mi45LTYwMi45eiIvPgo8L3N2Zz4="/>
+	</defs>
+	<style>
+		.s0 { fill: #a9b98c } 
+	</style>
+	<use id="New Project (3)" href="#img1" transform="matrix(-1,0,0,1,135,0)"/>
+	<path id="Layer 1" class="s0" d="m942.9 2169.9l-952.9 602.9 122.1-2874.8 952.9-602.9z"/>
+</svg>

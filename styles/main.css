@@ -1,0 +1,139 @@
+@font-face {
+  font-family: 'Akute';
+  src: url('Akute-Regular.woff2') format('woff2'),
+      url('Akute-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Akute';
+  src: url('AkuteBlack.woff2') format('woff2'),
+      url('AkuteBlack.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Akute';
+  src: url('Akute-Bold.woff2') format('woff2'),
+      url('Akute-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Akute';
+  src: url('Akute-Thin.woff2') format('woff2'),
+      url('Akute-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BodoniFLF';
+  src: url('BodoniFLF-BoldItalic.woff2') format('woff2'),
+      url('BodoniFLF-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BodoniFLF';
+  src: url('BodoniFLF-Roman.woff2') format('woff2'),
+      url('BodoniFLF-Roman.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BodoniFLF';
+  src: url('BodoniFLF-Bold.woff2') format('woff2'),
+      url('BodoniFLF-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BodoniFLF';
+  src: url('BodoniFLF-Italic.woff2') format('woff2'),
+      url('BodoniFLF-Italic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Ruadson';
+  src: url('Ruadson.woff2') format('woff2'),
+      url('Ruadson.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+
+
+:root {
+    /* color: #FFC311; */
+    /* --background-color: rgb(255, 255, 255); */
+    --background-color: rgb(254, 249, 177);
+    /* --main-color-theme: #ff6b30; */
+    --main-color-theme: rgb(107, 47, 12);
+    /* --secondary-color-theme: rgb(255, 107, 107); */
+    --secondary-color-theme: rgb(69, 78, 1);
+    /* --about-color: #f6a17f; */
+    --about-color: rgb(107, 47, 12);
+    /* --third-color-theme: #dfffa9; */
+    --third-color-theme: #a4da46;
+
+    --color-theme-one: #ffffff;
+    --color-theme-two: #43699a;
+  }
+
+
+html{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+body::selection {
+    background: #ffb7b7; /* WebKit/Blink Browsers */
+  }
+
+body::-moz-selection {
+    background: #ffb7b7; /* Gecko Browsers */
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+  a:visited {
+    text-decoration: none;
+  }
+  

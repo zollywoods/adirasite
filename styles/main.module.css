@@ -1,0 +1,161 @@
+.mainPage{
+    height: 100vh;
+    width: 100%;
+    background-color: #a9b98c;
+    display: flex;
+}
+
+.vertMenu{
+    padding-top: 3%;
+    padding-left: 3%;
+    width: 20%;
+    position: relative;
+    z-index: 3;
+    font-family: 'BodoniFLF';
+}
+
+.reel{
+    padding-top: 3%;
+    padding-left: 3%;
+    background-color: #f9e5c1;
+    width: 80%;
+}
+
+.adira{
+    font-family: 'Akute';
+    color: #b30c36;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.about{
+    font-family: 'Ruadson';
+    font-size: 1.1em;
+    color: #e4224b;
+}
+
+.about:hover{
+    cursor: pointer;
+}
+
+.commercial{
+    font-size: 1.2em;
+    color: #eed906;
+}
+
+.commercial:hover{
+    cursor: pointer;
+}
+
+.commercialWorks{
+    font-family: 'Ruadson';
+    color: #6544cc;
+    font-size: 1em;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.commercialWorks:hover{
+    cursor: pointer;
+}
+
+.personalWorks{
+    font-family: 'Ruadson';
+    color: #6544cc;
+    font-size: 1em;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.personalWorks:hover{
+    cursor: pointer;
+}
+
+.greenTriangle{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    left: 21%;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    z-index: 2;
+}
+
+.flippedTriangle{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    right: 0%;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    z-index: 2;
+}
+
+.reelVideo{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 12%;
+}
+
+.embed{
+    margin: 0 auto;
+}
+
+.colorMode{
+    position: absolute;
+    z-index: 3;
+    bottom: 15px;
+    right: 20px;
+    font-size: .8em;
+}
+
+.colorMode:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .vertMenu{
+        padding-top: 3%;
+        padding-left: 3%;
+        width: 30%;
+        position: relative;
+        z-index: 3;
+        font-family: 'BodoniFLF';
+    }
+
+    .reel{
+        padding-top: 3%;
+        padding-left: 3%;
+        background-color: #f9e5c1;
+        width: 70%;
+    }
+
+    .greenTriangle{
+        position: absolute;
+        top: 0;
+        height: 100vh;
+        left: 31%;
+        -webkit-user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        z-index: 2;
+    }
+    
+
+}
